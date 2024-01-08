@@ -4,30 +4,41 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="src/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+  
   <title>Weather</title>
 </head>
 <body>
-<div>
+<div class="weather-app-container">
   <header>
   <form>
-<input type="search" placeholder="Enter a city..." required />
-<input type="submit" value="Search" />
+<input type="search" placeholder="Enter a city..." required  class="weather-form-city"/>
+<input type="submit" value="Search" class="weather-form-search"/>
   </form>
 </header>
 
-<main>
-
-<h1>Paris </h1>
+<main >
+<div class="weather-details">
+<div><h1 class="weather-city-value">Paris </h1>
 <p>Tuesday 14:49, Scattered clouds <br />
-Humidity:66% , Wind:3.13km/h </p>
+Humidity:<strong>66%</strong> , Wind: <strong>3.13km/h</strong> </p>
+</div>
+
+<div  class="weather-temperature">
+<div class="weather-icon">⛅</div>
+<div class="weather-temp-No">12</div>
+<div class="weather-value">°C</div>
+</div>
+</div>
 </main>
 
-<div>⛅12°C</div>
-
   <footer>
-Coded by <a href="">Yolanda Baloyi</a>, 
-<a href="">open-sourced on GitHub</a> and
- <a href=""> hosted on Netlify</a>
+Coded by <a href="https://github.com/YolandaBaloyi">Yolanda Baloyi</a>, 
+<a href="https://github.com/YolandaBaloyi/Yolanda_WeatherApp">open-sourced on GitHub</a> and
+ <a href=" "> hosted on Netlify</a>
 
 </footer>
 </div>
