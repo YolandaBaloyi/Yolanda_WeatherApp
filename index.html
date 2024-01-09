@@ -14,15 +14,15 @@
 <body>
 <div class="weather-app-container">
   <header>
-  <form>
-<input type="search" placeholder="Enter a city..." required  class="weather-form-city"/>
+  <form id="search-form">
+<input type="search" placeholder="Enter a city..." required  class="weather-form-city" id="search-form-input"/>
 <input type="submit" value="Search" class="weather-form-search"/>
   </form>
 </header>
 
-<main >
+<main>
 <div class="weather-details">
-<div><h1 class="weather-city-value">Paris </h1>
+<div><h1 class="weather-city-value" id="city">Paris </h1>
 <p>Tuesday 14:49, Scattered clouds <br />
 Humidity:<strong>66%</strong> , Wind: <strong>3.13km/h</strong> </p>
 </div>
@@ -38,9 +38,11 @@ Humidity:<strong>66%</strong> , Wind: <strong>3.13km/h</strong> </p>
   <footer>
 Coded by <a href="https://github.com/YolandaBaloyi">Yolanda Baloyi</a>, 
 <a href="https://github.com/YolandaBaloyi/Yolanda_WeatherApp">open-sourced on GitHub</a> and
- <a href=" "> hosted on Netlify</a>
+ <a href="https://yollyweather.netlify.app/"> hosted on Netlify</a>
 
 </footer>
 </div>
+
+<script src="src/app.js"></script>
 </body>
 </html>
