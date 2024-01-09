@@ -11,13 +11,14 @@ let cityElement=document.querySelector("#city");
 cityElement.innerHTML=response.data.city;
 temperatureElement.innerHTML= Math.round(temperature);
 let descriptionElement=document.querySelector("#description");
-
-    console.log(response.data.te);
+ 
+    console.log(response.data);
 
     descriptionElement.innerHTML=response.data.condition.description;
     humidityElement.innerHTML=`${response.data.temperature.humidity}%`;
     windSpeedElement.innerHTML=`${response.data.wind.speed}km/h`;
 timeElement.innerHTML=formalDate(date);
+
 }
 function formalDate(date){
 
