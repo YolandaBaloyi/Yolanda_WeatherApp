@@ -74,6 +74,32 @@ font-size:65px ;
     font-size: 50px;
    
 }
+.weather-forecast{
+  padding: 10px ;
+  font-size: 28px;
+
+}
+.weather-forecast{
+margin-top:20px;
+text-align: center;
+color: #f5e3f2;
+
+
+}
+
+.weather-forecast-date{
+    font-size: 14px;
+    opacity: 0.5;
+}
+.weather-forecast-temperature-min{
+opacity: 0.6;
+}
+
+.weather-forecast-temperatures{
+
+font-size: 15px;
+}
+
 footer{
     border-top: 2px solid #f5e3f2;
     text-align: center;
